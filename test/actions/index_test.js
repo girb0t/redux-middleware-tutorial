@@ -5,7 +5,7 @@ import { fetchUsers } from '../../src/actions';
 describe('actions', () => {
   describe('fetchUsers', () => {
     it('has the correct type', () => {
-      expect(fetchUsers().type).to.eql('FETCH_USERS');
+      expect(fetchUsers().type).to.eql(FETCH_USERS);
     });
   });
 });
