@@ -9,7 +9,7 @@ class UserList extends Component {
 
   render() {
     return (
-      <div>
+      <div className='user-list'>
         { this.props.users.map((user) => { return this.renderUser(user); }) }
       </div>
     );
@@ -17,10 +17,10 @@ class UserList extends Component {
 
   renderUser(user) {
     return (
-      <div className="card card-block">
-        <h4 className="card-title">{user.name}</h4>
-        <p className="card-text">Cheese Factory</p>
-        <a className="btn btn-primary">Email</a>
+      <div className='card card-block' key={user.name}>
+        <h4 className='card-title'>{user.name}</h4>
+        <p className='card-text'>Cheese Factory</p>
+        <a className='btn btn-primary'>Email</a>
       </div>
     );
   }
