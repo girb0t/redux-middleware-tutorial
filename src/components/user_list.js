@@ -8,7 +8,6 @@ class UserList extends Component {
   }
 
   render() {
-    console.log(this.props.users);
     return (
       <div>
         { this.props.users.map((user) => { return this.renderUser(user); }) }
