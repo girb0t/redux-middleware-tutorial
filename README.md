@@ -14,7 +14,7 @@ Things learned/practiced: **Redux**, **Redux middleware** **React**, **ES2015**
 ```
 Visit `http://localhost:8080/`
 
-##Run Tests
+##To Run Tests
 ```
   > npm run test:watch
 ```
