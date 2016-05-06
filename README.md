@@ -1,7 +1,7 @@
 # redux-middleware-tutorial
 
 ##About
-App built by following the course at udemy.com/react-redux-tutorial
+App built by following the course at udemy.com/react-redux-tutorial.
 
 Things learned/practiced: **Redux**, **Redux middleware** **React**, **ES2015**
 
@@ -14,3 +14,7 @@ Things learned/practiced: **Redux**, **Redux middleware** **React**, **ES2015**
 ```
 Visit `http://localhost:8080/`
 
+##Run Tests
+```
+  > npm run test:watch
+```
